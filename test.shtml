@@ -1,0 +1,50 @@
+<!--#include virtual="/html/global/header.shtml"-->
+<script src="/res/hqcwp/test/js/test.js"></script>
+</head>
+<body>
+    <div style="width:900px;margin:50px auto;">
+        <form class="layui-form" id="j_form1">
+            <div class="layui-form-item">
+                <label class="layui-form-label">选择地区</label>
+                <div class="layui-input-inline">
+                    <select class="province" name="provid" lay-filter="provid" >
+                        <option value="">请选择省</option>
+                    </select>
+                </div>
+                <div class="layui-input-inline">
+                    <select class="city" name="cityid" lay-filter="cityid">
+                        <option value="">请选择市</option>
+                    </select>
+                </div>
+                <div class="layui-input-inline">
+                    <select class="district" name="areaid" lay-filter="areaid">
+                        <option value="">请选择县/区</option>
+                    </select>
+                </div>
+            </div>
+        </form>
+        <form class="layui-form" id="j_form2">
+            <div class="layui-form-item">
+                <label class="layui-form-label">选择地区</label>
+                <div class="layui-input-inline">
+                    <select class="province" name="provid2" lay-filter="provid2" >
+                        <option value="">请选择省</option>
+                    </select>
+                </div>
+                <div class="layui-input-inline">
+                    <select class="city" name="cityid2" lay-filter="cityid2">
+                        <option value="">请选择市</option>
+                    </select>
+                </div>
+                <div class="layui-input-inline">
+                    <select class="district" name="areaid2" lay-filter="areaid2">
+                        <option value="">请选择县/区</option>
+                    </select>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+</div>
+<!--#include virtual="/html/global/footer.shtml"-->
